@@ -1,7 +1,7 @@
 -- ATIVIDADE 01: Sistema de RH de uma empresa
 
 -- 1. Criação do banco de dados
-CREATE DATABASE empresa_rh;
+CREATE DATABASE IF NOT EXISTS empresa_rh;
 USE empresa_rh;
 
 -- 2. Criação da tabela de colaboradores com 5 atributos
